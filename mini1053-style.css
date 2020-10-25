@@ -1,0 +1,86 @@
+@font-face { font-family: 'GmarketSansBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {
+   margin: 0;
+   font-family: 'NanumSquare', sans-serif !important;
+   background: #4169E1;
+}
+.top {
+  padding: 0;
+  width: screen;
+  height: 100px;
+  background: black;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  color: #00FFFF;
+  font-family: "GmarketSansBold";
+  }
+.oh {
+ font-size: 30px;
+ color: #EE82EE;
+ text-align: center;
+ font-family: "GmarketSansBold";
+}
+.z {
+ text-align: center;
+ width: 10%;
+ transition: ease 0.4s;
+}
+.proimg:hover {
+    transform: scale(1.15);
+  }
+.proimg:active {
+    transform: scale(1.1);
+    filter: brightness(130%);
+  }
+a {
+  color: #BA55D3;
+  text-decoration: none;
+  font-size: 30px;
+}
+.end{
+   padding: 0;
+   width: screen;
+   height: 20px;
+   background: black;
+   text-align: center;
+   margin-top: 20px;
+   color: #00FFFF;
+}
+.set {
+ text-align: center;
+ color: #BA55D3;
+}
+.page {
+ background-color: #EE82EE;;
+ border-radius: 5px;
+ border: 0;
+ padding: 10px;
+ font-size: 15px;
+ color: white;
+}
+.소개 {
+  color: #00FFFF;
+  font-family: "GmarketSansBold";
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.line{
+    padding: 0;
+    width: 60%;
+    height: 1px;
+    background: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.proimg{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-right: 100px;
+    margin-left: 40px;
+    transition: ease 0.4s;
+  }
